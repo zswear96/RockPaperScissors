@@ -1,0 +1,58 @@
+h1,
+h2 {
+  color: #dfd3c3;
+  text-align: center;
+}
+
+img#lose {
+  width: 400px;
+}
+img#win {
+  width: 400px;
+}
+
+.winorlose {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+img {
+  max-height: 60vh;
+}
+
+.imgoverall {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30vh;
+}
+
+.hidden {
+  display: block;
+  visibility: none;
+}
+
+body {
+  background: radial-gradient(
+    1091px at 106.5% 111.5%,
+    rgb(250, 246, 213) 0.1%,
+    rgb(218, 147, 93) 42.2%,
+    rgb(137, 86, 67) 74.3%,
+    rgb(67, 39, 39) 100.2%
+  );
+}
+
+.returnHome {
+  border-radius: 5px;
+  margin: 20px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #c7b198;
+  background: #596e79;
+}
+
+.returnHome:hover {
+  background: #c7b198;
+  color: #596e79;
+}
